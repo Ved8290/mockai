@@ -9,10 +9,6 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "script":{
-    "predeploy" : "npm run build", 
-    "deploy": "gh-pages -d build", 
-  },
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
